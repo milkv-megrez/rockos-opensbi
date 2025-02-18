@@ -1,11 +1,7 @@
 name: rockos-uboot-payload
 
 on:
-  push:
-  pull_request:
   workflow_dispatch:
-  schedule:
-    - cron: "0 2 * * *"
 
 env:
   mainline_toolchain: https://github.com/riscv-collab/riscv-gnu-toolchain/releases/download/2024.11.22
